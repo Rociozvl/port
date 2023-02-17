@@ -13,7 +13,7 @@ const Github = ({ user,statusCode }) => {
                         <h1>{user.name}</h1>
                         <img src={user.avatar_url} alt="" />
                         <a href={user.blog} target="_blank" className="btn btn-outline-secondary my-2">
-                            My Blog</a>
+                           LinkedIn</a>
                             <a href={user.html_url} target="_blank" className="btn btn-outline-secondary">
                                 Go to Github
                             </a>

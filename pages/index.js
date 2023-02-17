@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
-import { skills, projects } from "../profile"
+import { projects } from "../profile"
 
 
 
@@ -18,7 +18,7 @@ const index = () => (
                      <div >
                         <h1>Celeste Zavala</h1>
                         <h3>FullStack Web Developer</h3>
-                        <p>Trainee</p>
+                    
                         
                         <a className=" btn btn-primary" href="./cvTrainee.pdf" download>Download CV</a>
                      </div>

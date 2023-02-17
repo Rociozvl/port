@@ -20,7 +20,9 @@ const Navbar = () => {
           aria-label="Toggle navigation"
         > 
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> 
+        
+ 
         </div>
         <div>
         <div className="collapse navbar-collapse " id="navbarNav">
@@ -52,6 +54,7 @@ const Navbar = () => {
       </div>
       </div>
     </nav>
+    
   );
 };
 
